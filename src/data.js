@@ -6,6 +6,41 @@ const conf = {
 
 const data = [
   {
+    folder: 'four',
+    items: [
+      '164.jpg',
+      '116.jpg',
+      '122.jpg',
+      '123.jpg',
+      '130.jpg',
+      '132.jpg',
+      '136.jpg',
+      '140.jpg',
+      '144.jpg',
+      '147.jpg',
+      '149.jpg',
+      '150.jpg',
+      '151.jpg',
+      '152.jpg',
+      '161.jpg',
+      '167.jpg',
+      '168.jpg',
+      '178.jpg',
+      '182.jpg',
+      '187.jpg',
+      '188.jpg',
+      '190.jpg',
+      '196.jpg',
+      '201.jpg',
+      '203.jpg',
+      '205.jpg',
+      '217.jpg',
+      '221.jpg',
+      '224.jpg',
+      '229.jpg'
+    ]
+  },
+  {
     folder: 'three',
     items: [
       '007.jpg',
@@ -131,6 +166,9 @@ export function images () {
           break
         case 'three':
           info = '三岁'
+          break
+        case 'four':
+          info = '四岁'
           break
       }
       imageData.push({ info, href, src })
